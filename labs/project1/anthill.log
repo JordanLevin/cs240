@@ -1,0 +1,1920 @@
+adding 3 starting ants 
+==================== Turn #1 ====================
+The Hill currently has:
+	Food: 0
+	Ants: 3
+The hill has been attacked 0 times
+Successfully defended: 0
+Failed to defend: 0
+Ant #0 [0,0] 
+Ant #1 [0,0] 
+Ant #2 [0,0] 
+adding 0 ants to ant hill 
+ants are moving 
+anthill under attack 
+defenders win 
+Ant # 0 is in a fight 
+Ant # 0 won the fight 
+Ant # 1 is in a fight 
+Ant # 1 won the fight 
+==================== Turn #2 ====================
+The Hill currently has:
+	Food: 1
+	Ants: 3
+The hill has been attacked 1 times
+Successfully defended: 1
+Failed to defend: 0
+Ant #0 [-1,0] 
+Ant #1 [-1,0] 
+Ant #2 [0,1] 
+adding 1 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+==================== Turn #3 ====================
+The Hill currently has:
+	Food: 2
+	Ants: 4
+The hill has been attacked 1 times
+Successfully defended: 1
+Failed to defend: 0
+Ant #0 [-2,0] 
+Ant #1 [-2,0] 
+Ant #2 [1,1] 
+Ant #3 [0,1] 
+adding 2 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 4 is in a fight 
+Ant # 4 won the fight 
+==================== Turn #4 ====================
+The Hill currently has:
+	Food: 0
+	Ants: 6
+The hill has been attacked 1 times
+Successfully defended: 1
+Failed to defend: 0
+Ant #0 [-3,0] 
+Ant #1 [-2,-1] 
+Ant #2 [1,2] 
+Ant #3 [0,0] 
+Ant #4 [-1,0] 
+Ant #5 [0,1] 
+adding 0 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 3 is in a fight 
+Ant # 3 won the fight 
+==================== Turn #5 ====================
+The Hill currently has:
+	Food: 2
+	Ants: 6
+The hill has been attacked 1 times
+Successfully defended: 1
+Failed to defend: 0
+Ant #0 [-4,0] 
+Ant #1 [-2,-2] 
+Ant #2 [0,2] 
+Ant #3 [0,1] 
+Ant #4 [0,0] 
+Ant #5 [0,0] 
+adding 2 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 1 is in a fight 
+Ant # 1 was killed 
+==================== Turn #6 ====================
+The Hill currently has:
+	Food: 3
+	Ants: 7
+The hill has been attacked 1 times
+Successfully defended: 1
+Failed to defend: 0
+Ant #7 [-1,0] 
+Ant #0 [-5,0] 
+Ant #2 [1,2] 
+Ant #3 [0,2] 
+Ant #4 [1,0] 
+Ant #5 [0,1] 
+Ant #6 [0,1] 
+adding 3 ants to ant hill 
+ants are moving 
+anthill under attack 
+defenders win 
+Ant # 7 is in a fight 
+Ant # 7 won the fight 
+Ant # 10 is in a fight 
+Ant # 10 won the fight 
+==================== Turn #7 ====================
+The Hill currently has:
+	Food: 1
+	Ants: 10
+The hill has been attacked 2 times
+Successfully defended: 2
+Failed to defend: 0
+Ant #7 [-1,1] 
+Ant #8 [0,1] 
+Ant #9 [-1,0] 
+Ant #10 [-1,0] 
+Ant #0 [-5,1] 
+Ant #2 [2,2] 
+Ant #3 [-1,2] 
+Ant #4 [0,0] 
+Ant #5 [1,1] 
+Ant #6 [0,2] 
+adding 1 ants to ant hill 
+ants are moving 
+anthill under attack 
+defenders win 
+Ant # 10 is in a fight 
+Ant # 10 was killed 
+==================== Turn #8 ====================
+The Hill currently has:
+	Food: 2
+	Ants: 10
+The hill has been attacked 3 times
+Successfully defended: 3
+Failed to defend: 0
+Ant #6 [-1,2] 
+Ant #7 [-1,0] 
+Ant #8 [1,1] 
+Ant #9 [-1,1] 
+Ant #11 [0,1] 
+Ant #0 [-6,1] 
+Ant #2 [2,1] 
+Ant #3 [0,2] 
+Ant #4 [0,-1] 
+Ant #5 [2,1] 
+adding 2 ants to ant hill 
+ants are moving 
+anthill under attack 
+defenders win 
+Ant # 2 is in a fight 
+Ant # 2 was killed 
+==================== Turn #9 ====================
+The Hill currently has:
+	Food: 0
+	Ants: 11
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #5 [2,0] 
+Ant #6 [-1,3] 
+Ant #7 [0,0] 
+Ant #8 [1,0] 
+Ant #9 [-1,0] 
+Ant #11 [-1,1] 
+Ant #12 [1,0] 
+Ant #13 [1,0] 
+Ant #0 [-5,1] 
+Ant #3 [0,1] 
+Ant #4 [1,-1] 
+adding 0 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 5 is in a fight 
+Ant # 5 won the fight 
+Ant # 12 is in a fight 
+Ant # 12 was killed 
+Ant # 0 is in a fight 
+Ant # 0 was killed 
+==================== Turn #10 ====================
+The Hill currently has:
+	Food: 0
+	Ants: 9
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #3 [-1,1] 
+Ant #4 [1,-2] 
+Ant #5 [2,1] 
+Ant #6 [-2,3] 
+Ant #7 [-1,0] 
+Ant #8 [1,-1] 
+Ant #9 [-1,-1] 
+Ant #11 [0,1] 
+Ant #13 [1,1] 
+adding 0 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 5 is in a fight 
+Ant # 5 won the fight 
+==================== Turn #11 ====================
+The Hill currently has:
+	Food: 1
+	Ants: 9
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #3 [-2,1] 
+Ant #4 [1,-3] 
+Ant #5 [3,1] 
+Ant #6 [-2,2] 
+Ant #7 [-1,-1] 
+Ant #8 [1,0] 
+Ant #9 [0,-1] 
+Ant #11 [-1,1] 
+Ant #13 [2,1] 
+adding 1 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 4 is in a fight 
+Ant # 4 won the fight 
+Ant # 8 is in a fight 
+Ant # 8 won the fight 
+Ant # 9 is in a fight 
+Ant # 9 won the fight 
+==================== Turn #12 ====================
+The Hill currently has:
+	Food: 1
+	Ants: 10
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #3 [-3,1] 
+Ant #4 [1,-4] 
+Ant #5 [3,0] 
+Ant #6 [-1,2] 
+Ant #7 [-2,-1] 
+Ant #8 [2,0] 
+Ant #9 [0,0] 
+Ant #11 [-1,0] 
+Ant #13 [1,1] 
+Ant #14 [0,1] 
+adding 1 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 5 is in a fight 
+Ant # 5 won the fight 
+Ant # 7 is in a fight 
+Ant # 7 won the fight 
+==================== Turn #13 ====================
+The Hill currently has:
+	Food: 4
+	Ants: 11
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #3 [-2,1] 
+Ant #4 [2,-4] 
+Ant #5 [3,-1] 
+Ant #6 [-2,2] 
+Ant #7 [-3,-1] 
+Ant #8 [3,0] 
+Ant #9 [0,-1] 
+Ant #11 [-1,1] 
+Ant #13 [1,0] 
+Ant #14 [0,2] 
+Ant #15 [0,1] 
+adding 4 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 4 is in a fight 
+Ant # 4 won the fight 
+Ant # 6 is in a fight 
+Ant # 6 won the fight 
+Ant # 8 is in a fight 
+Ant # 8 won the fight 
+Ant # 11 is in a fight 
+Ant # 11 won the fight 
+Ant # 15 is in a fight 
+Ant # 15 was killed 
+Ant # 18 is in a fight 
+Ant # 18 was killed 
+==================== Turn #14 ====================
+The Hill currently has:
+	Food: 0
+	Ants: 13
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #19 [-1,0] 
+Ant #3 [-3,1] 
+Ant #4 [2,-3] 
+Ant #5 [4,-1] 
+Ant #6 [-2,3] 
+Ant #7 [-4,-1] 
+Ant #8 [3,-1] 
+Ant #9 [0,0] 
+Ant #11 [-2,1] 
+Ant #13 [1,1] 
+Ant #14 [0,1] 
+Ant #16 [0,1] 
+Ant #17 [0,1] 
+adding 0 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 5 is in a fight 
+Ant # 5 won the fight 
+==================== Turn #15 ====================
+The Hill currently has:
+	Food: 2
+	Ants: 13
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #19 [-2,0] 
+Ant #3 [-4,1] 
+Ant #4 [2,-2] 
+Ant #5 [4,-2] 
+Ant #6 [-3,3] 
+Ant #7 [-5,-1] 
+Ant #8 [3,0] 
+Ant #9 [0,-1] 
+Ant #11 [-2,0] 
+Ant #13 [1,0] 
+Ant #14 [1,1] 
+Ant #16 [0,0] 
+Ant #17 [-1,1] 
+adding 2 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 7 is in a fight 
+Ant # 7 won the fight 
+Ant # 17 is in a fight 
+Ant # 17 won the fight 
+==================== Turn #16 ====================
+The Hill currently has:
+	Food: 4
+	Ants: 15
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #19 [-2,1] 
+Ant #20 [1,0] 
+Ant #21 [-1,0] 
+Ant #3 [-4,0] 
+Ant #4 [1,-2] 
+Ant #5 [4,-3] 
+Ant #6 [-3,4] 
+Ant #7 [-5,0] 
+Ant #8 [2,0] 
+Ant #9 [1,-1] 
+Ant #11 [-2,1] 
+Ant #13 [2,0] 
+Ant #14 [2,1] 
+Ant #16 [0,1] 
+Ant #17 [-1,0] 
+adding 4 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 23 is in a fight 
+Ant # 23 won the fight 
+Ant # 24 is in a fight 
+Ant # 24 was killed 
+Ant # 7 is in a fight 
+Ant # 7 won the fight 
+Ant # 8 is in a fight 
+Ant # 8 was killed 
+==================== Turn #17 ====================
+The Hill currently has:
+	Food: 2
+	Ants: 17
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #16 [0,0] 
+Ant #17 [-1,1] 
+Ant #19 [-1,1] 
+Ant #20 [2,0] 
+Ant #21 [-2,0] 
+Ant #22 [1,0] 
+Ant #23 [0,-1] 
+Ant #25 [-1,0] 
+Ant #3 [-4,-1] 
+Ant #4 [1,-1] 
+Ant #5 [3,-3] 
+Ant #6 [-3,3] 
+Ant #7 [-4,0] 
+Ant #9 [0,-1] 
+Ant #11 [-2,0] 
+Ant #13 [2,-1] 
+Ant #14 [1,1] 
+adding 2 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 17 is in a fight 
+Ant # 17 won the fight 
+Ant # 23 is in a fight 
+Ant # 23 was killed 
+Ant # 7 is in a fight 
+Ant # 7 was killed 
+Ant # 9 is in a fight 
+Ant # 9 was killed 
+==================== Turn #18 ====================
+The Hill currently has:
+	Food: 2
+	Ants: 16
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #11 [-2,-1] 
+Ant #13 [1,-1] 
+Ant #14 [0,1] 
+Ant #16 [0,-1] 
+Ant #17 [0,1] 
+Ant #19 [-1,0] 
+Ant #20 [3,0] 
+Ant #21 [-2,-1] 
+Ant #22 [1,1] 
+Ant #25 [-1,-1] 
+Ant #26 [1,0] 
+Ant #27 [1,0] 
+Ant #3 [-4,-2] 
+Ant #4 [0,-1] 
+Ant #5 [3,-2] 
+Ant #6 [-3,2] 
+adding 2 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 20 is in a fight 
+Ant # 20 won the fight 
+Ant # 22 is in a fight 
+Ant # 22 won the fight 
+Ant # 25 is in a fight 
+Ant # 25 won the fight 
+Ant # 26 is in a fight 
+Ant # 26 won the fight 
+Ant # 28 is in a fight 
+Ant # 28 won the fight 
+Ant # 29 is in a fight 
+Ant # 29 was killed 
+==================== Turn #19 ====================
+The Hill currently has:
+	Food: 3
+	Ants: 17
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #6 [-3,3] 
+Ant #11 [-1,-1] 
+Ant #13 [1,0] 
+Ant #14 [0,2] 
+Ant #16 [0,-2] 
+Ant #17 [-1,1] 
+Ant #19 [-1,-1] 
+Ant #20 [3,-1] 
+Ant #21 [-1,-1] 
+Ant #22 [0,1] 
+Ant #25 [0,-1] 
+Ant #26 [2,0] 
+Ant #27 [1,1] 
+Ant #28 [0,1] 
+Ant #3 [-5,-2] 
+Ant #4 [0,0] 
+Ant #5 [4,-2] 
+adding 3 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 19 is in a fight 
+Ant # 19 was killed 
+Ant # 25 is in a fight 
+Ant # 25 was killed 
+Ant # 30 is in a fight 
+Ant # 30 won the fight 
+Ant # 31 is in a fight 
+Ant # 31 won the fight 
+Ant # 3 is in a fight 
+Ant # 3 won the fight 
+==================== Turn #20 ====================
+The Hill currently has:
+	Food: 4
+	Ants: 18
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #4 [0,-1] 
+Ant #5 [4,-3] 
+Ant #6 [-3,4] 
+Ant #11 [-1,0] 
+Ant #13 [1,1] 
+Ant #14 [0,1] 
+Ant #16 [-1,-2] 
+Ant #17 [-1,2] 
+Ant #20 [3,0] 
+Ant #21 [0,-1] 
+Ant #22 [0,0] 
+Ant #26 [3,0] 
+Ant #27 [0,1] 
+Ant #28 [-1,1] 
+Ant #30 [-1,0] 
+Ant #31 [0,-1] 
+Ant #32 [0,1] 
+Ant #3 [-5,-3] 
+adding 4 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 5 is in a fight 
+Ant # 5 won the fight 
+Ant # 6 is in a fight 
+Ant # 6 won the fight 
+Ant # 13 is in a fight 
+Ant # 13 was killed 
+Ant # 22 is in a fight 
+Ant # 22 was killed 
+Ant # 28 is in a fight 
+Ant # 28 won the fight 
+Ant # 34 is in a fight 
+Ant # 34 was killed 
+==================== Turn #21 ====================
+The Hill currently has:
+	Food: 3
+	Ants: 19
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #35 [0,1] 
+Ant #36 [1,0] 
+Ant #3 [-6,-3] 
+Ant #4 [0,0] 
+Ant #5 [5,-3] 
+Ant #6 [-3,3] 
+Ant #11 [0,0] 
+Ant #14 [0,2] 
+Ant #16 [-1,-3] 
+Ant #17 [0,2] 
+Ant #20 [3,-1] 
+Ant #21 [-1,-1] 
+Ant #26 [3,-1] 
+Ant #27 [-1,1] 
+Ant #28 [0,1] 
+Ant #30 [0,0] 
+Ant #31 [-1,-1] 
+Ant #32 [0,2] 
+Ant #33 [-1,0] 
+adding 3 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 37 is in a fight 
+Ant # 37 was killed 
+Ant # 14 is in a fight 
+Ant # 14 was killed 
+Ant # 21 is in a fight 
+Ant # 21 won the fight 
+Ant # 26 is in a fight 
+Ant # 26 was killed 
+==================== Turn #22 ====================
+The Hill currently has:
+	Food: 3
+	Ants: 19
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #31 [-1,-2] 
+Ant #32 [-1,2] 
+Ant #33 [-1,-1] 
+Ant #35 [0,0] 
+Ant #36 [2,0] 
+Ant #38 [0,-1] 
+Ant #39 [-1,0] 
+Ant #3 [-7,-3] 
+Ant #4 [0,1] 
+Ant #5 [4,-3] 
+Ant #6 [-2,3] 
+Ant #11 [0,-1] 
+Ant #16 [0,-3] 
+Ant #17 [0,3] 
+Ant #20 [3,0] 
+Ant #21 [-1,0] 
+Ant #27 [0,1] 
+Ant #28 [1,1] 
+Ant #30 [1,0] 
+adding 3 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 35 is in a fight 
+Ant # 35 won the fight 
+Ant # 36 is in a fight 
+Ant # 36 was killed 
+Ant # 38 is in a fight 
+Ant # 38 won the fight 
+Ant # 39 is in a fight 
+Ant # 39 was killed 
+Ant # 42 is in a fight 
+Ant # 42 won the fight 
+Ant # 3 is in a fight 
+Ant # 3 won the fight 
+Ant # 4 is in a fight 
+Ant # 4 won the fight 
+==================== Turn #23 ====================
+The Hill currently has:
+	Food: 6
+	Ants: 20
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #28 [1,0] 
+Ant #30 [1,-1] 
+Ant #31 [-1,-1] 
+Ant #32 [-1,3] 
+Ant #33 [0,-1] 
+Ant #35 [0,1] 
+Ant #38 [0,0] 
+Ant #40 [0,-1] 
+Ant #41 [-1,0] 
+Ant #42 [-1,0] 
+Ant #3 [-7,-4] 
+Ant #4 [1,1] 
+Ant #5 [3,-3] 
+Ant #6 [-3,3] 
+Ant #11 [1,-1] 
+Ant #16 [0,-4] 
+Ant #17 [0,4] 
+Ant #20 [2,0] 
+Ant #21 [-1,-1] 
+Ant #27 [0,0] 
+adding 6 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 38 is in a fight 
+Ant # 38 won the fight 
+Ant # 40 is in a fight 
+Ant # 40 was killed 
+Ant # 41 is in a fight 
+Ant # 41 won the fight 
+Ant # 47 is in a fight 
+Ant # 47 was killed 
+Ant # 48 is in a fight 
+Ant # 48 won the fight 
+Ant # 4 is in a fight 
+Ant # 4 won the fight 
+Ant # 5 is in a fight 
+Ant # 5 won the fight 
+Ant # 6 is in a fight 
+Ant # 6 was killed 
+==================== Turn #24 ====================
+The Hill currently has:
+	Food: 2
+	Ants: 23
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #20 [1,0] 
+Ant #21 [-1,-2] 
+Ant #27 [0,1] 
+Ant #28 [0,0] 
+Ant #30 [1,-2] 
+Ant #31 [-2,-1] 
+Ant #32 [-1,2] 
+Ant #33 [-1,-1] 
+Ant #35 [-1,1] 
+Ant #38 [0,1] 
+Ant #41 [-1,-1] 
+Ant #42 [-2,0] 
+Ant #43 [0,-1] 
+Ant #44 [-1,0] 
+Ant #45 [0,1] 
+Ant #46 [-1,0] 
+Ant #48 [-1,0] 
+Ant #3 [-8,-4] 
+Ant #4 [2,1] 
+Ant #5 [3,-2] 
+Ant #11 [1,0] 
+Ant #16 [1,-4] 
+Ant #17 [0,5] 
+adding 2 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 21 is in a fight 
+Ant # 21 won the fight 
+Ant # 35 is in a fight 
+Ant # 35 won the fight 
+Ant # 50 is in a fight 
+Ant # 50 was killed 
+==================== Turn #25 ====================
+The Hill currently has:
+	Food: 2
+	Ants: 24
+The hill has been attacked 4 times
+Successfully defended: 4
+Failed to defend: 0
+Ant #17 [0,4] 
+Ant #20 [2,0] 
+Ant #21 [0,-2] 
+Ant #27 [0,0] 
+Ant #28 [1,0] 
+Ant #30 [1,-1] 
+Ant #31 [-2,0] 
+Ant #32 [0,2] 
+Ant #33 [0,-1] 
+Ant #35 [-1,2] 
+Ant #38 [0,2] 
+Ant #41 [-1,-2] 
+Ant #42 [-2,1] 
+Ant #43 [1,-1] 
+Ant #44 [0,0] 
+Ant #45 [0,2] 
+Ant #46 [-1,-1] 
+Ant #48 [-1,1] 
+Ant #49 [0,-1] 
+Ant #3 [-8,-3] 
+Ant #4 [1,1] 
+Ant #5 [2,-2] 
+Ant #11 [0,0] 
+Ant #16 [1,-5] 
+adding 2 ants to ant hill 
+ants are moving 
+anthill under attack 
+defenders win 
+Ant # 31 is in a fight 
+Ant # 31 was killed 
+Ant # 38 is in a fight 
+Ant # 38 won the fight 
+Ant # 41 is in a fight 
+Ant # 41 won the fight 
+==================== Turn #26 ====================
+The Hill currently has:
+	Food: 3
+	Ants: 25
+The hill has been attacked 5 times
+Successfully defended: 5
+Failed to defend: 0
+Ant #16 [1,-6] 
+Ant #17 [0,5] 
+Ant #20 [3,0] 
+Ant #21 [1,-2] 
+Ant #27 [0,1] 
+Ant #28 [2,0] 
+Ant #30 [1,0] 
+Ant #32 [0,3] 
+Ant #33 [1,-1] 
+Ant #35 [0,2] 
+Ant #38 [-1,2] 
+Ant #41 [0,-2] 
+Ant #42 [-2,0] 
+Ant #43 [1,0] 
+Ant #44 [0,-1] 
+Ant #45 [0,3] 
+Ant #46 [-1,-2] 
+Ant #48 [0,1] 
+Ant #49 [1,-1] 
+Ant #51 [0,-1] 
+Ant #52 [0,-1] 
+Ant #3 [-8,-2] 
+Ant #4 [2,1] 
+Ant #5 [1,-2] 
+Ant #11 [0,-1] 
+adding 3 ants to ant hill 
+ants are moving 
+anthill under attack 
+defenders win 
+Ant # 16 is in a fight 
+Ant # 16 won the fight 
+Ant # 21 is in a fight 
+Ant # 21 was killed 
+Ant # 45 is in a fight 
+Ant # 45 was killed 
+Ant # 55 is in a fight 
+Ant # 55 was killed 
+==================== Turn #27 ====================
+The Hill currently has:
+	Food: 6
+	Ants: 25
+The hill has been attacked 6 times
+Successfully defended: 6
+Failed to defend: 0
+Ant #4 [2,2] 
+Ant #5 [1,-1] 
+Ant #11 [-1,-1] 
+Ant #16 [1,-5] 
+Ant #17 [0,4] 
+Ant #20 [2,0] 
+Ant #27 [0,2] 
+Ant #28 [3,0] 
+Ant #30 [1,1] 
+Ant #32 [-1,3] 
+Ant #33 [1,-2] 
+Ant #35 [0,1] 
+Ant #38 [-2,2] 
+Ant #41 [1,-2] 
+Ant #42 [-2,1] 
+Ant #43 [1,-1] 
+Ant #44 [0,0] 
+Ant #46 [-1,-1] 
+Ant #48 [1,1] 
+Ant #49 [1,0] 
+Ant #51 [0,-2] 
+Ant #52 [-1,-1] 
+Ant #53 [0,1] 
+Ant #54 [0,-1] 
+Ant #3 [-8,-1] 
+adding 6 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 32 is in a fight 
+Ant # 32 was killed 
+Ant # 38 is in a fight 
+Ant # 38 won the fight 
+Ant # 41 is in a fight 
+Ant # 41 was killed 
+Ant # 51 is in a fight 
+Ant # 51 was killed 
+Ant # 56 is in a fight 
+Ant # 56 was killed 
+Ant # 58 is in a fight 
+Ant # 58 was killed 
+==================== Turn #28 ====================
+The Hill currently has:
+	Food: 5
+	Ants: 26
+The hill has been attacked 6 times
+Successfully defended: 6
+Failed to defend: 0
+Ant #59 [0,-1] 
+Ant #60 [1,0] 
+Ant #61 [1,0] 
+Ant #3 [-8,0] 
+Ant #4 [2,1] 
+Ant #5 [2,-1] 
+Ant #11 [-1,-2] 
+Ant #16 [1,-6] 
+Ant #17 [0,3] 
+Ant #20 [3,0] 
+Ant #27 [0,1] 
+Ant #28 [4,0] 
+Ant #30 [0,1] 
+Ant #33 [1,-1] 
+Ant #35 [-1,1] 
+Ant #38 [-3,2] 
+Ant #42 [-2,2] 
+Ant #43 [2,-1] 
+Ant #44 [1,0] 
+Ant #46 [0,-1] 
+Ant #48 [2,1] 
+Ant #49 [0,0] 
+Ant #52 [-2,-1] 
+Ant #53 [1,1] 
+Ant #54 [0,0] 
+Ant #57 [0,-1] 
+adding 5 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 60 is in a fight 
+Ant # 60 won the fight 
+Ant # 3 is in a fight 
+Ant # 3 won the fight 
+Ant # 27 is in a fight 
+Ant # 27 won the fight 
+Ant # 33 is in a fight 
+Ant # 33 won the fight 
+Ant # 48 is in a fight 
+Ant # 48 was killed 
+Ant # 52 is in a fight 
+Ant # 52 won the fight 
+Ant # 53 is in a fight 
+Ant # 53 was killed 
+==================== Turn #29 ====================
+The Hill currently has:
+	Food: 5
+	Ants: 29
+The hill has been attacked 6 times
+Successfully defended: 6
+Failed to defend: 0
+Ant #54 [0,1] 
+Ant #57 [1,-1] 
+Ant #59 [0,0] 
+Ant #60 [2,0] 
+Ant #61 [2,0] 
+Ant #62 [0,-1] 
+Ant #63 [0,-1] 
+Ant #64 [1,0] 
+Ant #65 [-1,0] 
+Ant #66 [-1,0] 
+Ant #3 [-8,1] 
+Ant #4 [1,1] 
+Ant #5 [3,-1] 
+Ant #11 [-2,-2] 
+Ant #16 [0,-6] 
+Ant #17 [1,3] 
+Ant #20 [2,0] 
+Ant #27 [-1,1] 
+Ant #28 [3,0] 
+Ant #30 [1,1] 
+Ant #33 [1,0] 
+Ant #35 [-1,0] 
+Ant #38 [-3,3] 
+Ant #42 [-3,2] 
+Ant #43 [2,-2] 
+Ant #44 [1,-1] 
+Ant #46 [0,0] 
+Ant #49 [-1,0] 
+Ant #52 [-2,0] 
+adding 5 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 59 is in a fight 
+Ant # 59 was killed 
+Ant # 62 is in a fight 
+Ant # 62 won the fight 
+Ant # 63 is in a fight 
+Ant # 63 won the fight 
+Ant # 66 is in a fight 
+Ant # 66 won the fight 
+Ant # 16 is in a fight 
+Ant # 16 won the fight 
+Ant # 20 is in a fight 
+Ant # 20 was killed 
+Ant # 30 is in a fight 
+Ant # 30 won the fight 
+Ant # 35 is in a fight 
+Ant # 35 won the fight 
+==================== Turn #30 ====================
+The Hill currently has:
+	Food: 6
+	Ants: 32
+The hill has been attacked 6 times
+Successfully defended: 6
+Failed to defend: 0
+Ant #49 [-1,-1] 
+Ant #52 [-1,0] 
+Ant #54 [-1,1] 
+Ant #57 [0,-1] 
+Ant #60 [3,0] 
+Ant #61 [1,0] 
+Ant #62 [-1,-1] 
+Ant #63 [-1,-1] 
+Ant #64 [0,0] 
+Ant #65 [0,0] 
+Ant #66 [-1,1] 
+Ant #67 [0,-1] 
+Ant #68 [0,-1] 
+Ant #69 [0,1] 
+Ant #70 [1,0] 
+Ant #71 [1,0] 
+Ant #3 [-8,0] 
+Ant #4 [0,1] 
+Ant #5 [4,-1] 
+Ant #11 [-2,-3] 
+Ant #16 [-1,-6] 
+Ant #17 [1,4] 
+Ant #27 [-2,1] 
+Ant #28 [3,1] 
+Ant #30 [1,0] 
+Ant #33 [1,-1] 
+Ant #35 [-2,0] 
+Ant #38 [-3,2] 
+Ant #42 [-4,2] 
+Ant #43 [2,-1] 
+Ant #44 [2,-1] 
+Ant #46 [0,1] 
+adding 6 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 52 is in a fight 
+Ant # 52 was killed 
+Ant # 54 is in a fight 
+Ant # 54 was killed 
+Ant # 57 is in a fight 
+Ant # 57 won the fight 
+Ant # 62 is in a fight 
+Ant # 62 won the fight 
+Ant # 66 is in a fight 
+Ant # 66 won the fight 
+==================== Turn #31 ====================
+The Hill currently has:
+	Food: 10
+	Ants: 36
+The hill has been attacked 6 times
+Successfully defended: 6
+Failed to defend: 0
+Ant #44 [2,0] 
+Ant #46 [0,2] 
+Ant #49 [-1,0] 
+Ant #57 [-1,-1] 
+Ant #60 [3,-1] 
+Ant #61 [1,-1] 
+Ant #62 [-1,0] 
+Ant #63 [-1,0] 
+Ant #64 [1,0] 
+Ant #65 [1,0] 
+Ant #66 [0,1] 
+Ant #67 [1,-1] 
+Ant #68 [-1,-1] 
+Ant #69 [0,2] 
+Ant #70 [1,-1] 
+Ant #71 [1,-1] 
+Ant #72 [0,-1] 
+Ant #73 [0,1] 
+Ant #74 [1,0] 
+Ant #75 [1,0] 
+Ant #76 [-1,0] 
+Ant #77 [1,0] 
+Ant #3 [-9,0] 
+Ant #4 [0,0] 
+Ant #5 [5,-1] 
+Ant #11 [-1,-3] 
+Ant #16 [-1,-5] 
+Ant #17 [1,3] 
+Ant #27 [-1,1] 
+Ant #28 [3,0] 
+Ant #30 [1,1] 
+Ant #33 [1,-2] 
+Ant #35 [-1,0] 
+Ant #38 [-3,3] 
+Ant #42 [-3,2] 
+Ant #43 [2,-2] 
+adding 10 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 44 is in a fight 
+Ant # 44 won the fight 
+Ant # 64 is in a fight 
+Ant # 64 won the fight 
+Ant # 65 is in a fight 
+Ant # 65 won the fight 
+Ant # 67 is in a fight 
+Ant # 67 was killed 
+Ant # 68 is in a fight 
+Ant # 68 won the fight 
+Ant # 70 is in a fight 
+Ant # 70 won the fight 
+Ant # 71 is in a fight 
+Ant # 71 won the fight 
+Ant # 80 is in a fight 
+Ant # 80 won the fight 
+Ant # 81 is in a fight 
+Ant # 81 won the fight 
+Ant # 82 is in a fight 
+Ant # 82 won the fight 
+Ant # 4 is in a fight 
+Ant # 4 won the fight 
+Ant # 27 is in a fight 
+Ant # 27 won the fight 
+Ant # 28 is in a fight 
+Ant # 28 won the fight 
+Ant # 30 is in a fight 
+Ant # 30 was killed 
+==================== Turn #32 ====================
+The Hill currently has:
+	Food: 7
+	Ants: 44
+The hill has been attacked 6 times
+Successfully defended: 6
+Failed to defend: 0
+Ant #42 [-4,2] 
+Ant #43 [3,-2] 
+Ant #44 [3,0] 
+Ant #46 [-1,2] 
+Ant #49 [-1,-1] 
+Ant #57 [0,-1] 
+Ant #60 [3,0] 
+Ant #61 [1,0] 
+Ant #62 [0,0] 
+Ant #63 [-1,-1] 
+Ant #64 [2,0] 
+Ant #65 [2,0] 
+Ant #66 [-1,1] 
+Ant #68 [-1,0] 
+Ant #69 [-1,2] 
+Ant #70 [1,-2] 
+Ant #71 [1,0] 
+Ant #72 [0,0] 
+Ant #73 [1,1] 
+Ant #74 [0,0] 
+Ant #75 [1,1] 
+Ant #76 [-1,-1] 
+Ant #77 [0,0] 
+Ant #78 [1,0] 
+Ant #79 [1,0] 
+Ant #80 [1,0] 
+Ant #81 [-1,0] 
+Ant #82 [-1,0] 
+Ant #83 [0,-1] 
+Ant #84 [0,1] 
+Ant #85 [0,-1] 
+Ant #86 [0,1] 
+Ant #87 [0,1] 
+Ant #3 [-8,0] 
+Ant #4 [-1,0] 
+Ant #5 [5,0] 
+Ant #11 [-1,-4] 
+Ant #16 [-1,-6] 
+Ant #17 [1,4] 
+Ant #27 [-1,2] 
+Ant #28 [4,0] 
+Ant #33 [1,-3] 
+Ant #35 [-2,0] 
+Ant #38 [-2,3] 
+adding 7 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 65 is in a fight 
+Ant # 65 won the fight 
+Ant # 66 is in a fight 
+Ant # 66 won the fight 
+Ant # 71 is in a fight 
+Ant # 71 won the fight 
+Ant # 72 is in a fight 
+Ant # 72 won the fight 
+Ant # 78 is in a fight 
+Ant # 78 was killed 
+Ant # 79 is in a fight 
+Ant # 79 was killed 
+Ant # 85 is in a fight 
+Ant # 85 was killed 
+Ant # 91 is in a fight 
+Ant # 91 was killed 
+Ant # 94 is in a fight 
+Ant # 94 was killed 
+Ant # 5 is in a fight 
+Ant # 5 was killed 
+==================== Turn #33 ====================
+The Hill currently has:
+	Food: 6
+	Ants: 45
+The hill has been attacked 6 times
+Successfully defended: 6
+Failed to defend: 0
+Ant #17 [2,4] 
+Ant #27 [-1,3] 
+Ant #28 [5,0] 
+Ant #33 [1,-4] 
+Ant #35 [-1,0] 
+Ant #38 [-1,3] 
+Ant #42 [-5,2] 
+Ant #43 [4,-2] 
+Ant #44 [3,1] 
+Ant #46 [-1,3] 
+Ant #49 [-1,0] 
+Ant #57 [1,-1] 
+Ant #60 [4,0] 
+Ant #61 [0,0] 
+Ant #62 [-1,0] 
+Ant #63 [-1,-2] 
+Ant #64 [2,1] 
+Ant #65 [2,1] 
+Ant #66 [-1,0] 
+Ant #68 [-1,1] 
+Ant #69 [0,2] 
+Ant #70 [0,-2] 
+Ant #71 [1,-1] 
+Ant #72 [0,1] 
+Ant #73 [0,1] 
+Ant #74 [0,-1] 
+Ant #75 [0,1] 
+Ant #76 [-1,0] 
+Ant #77 [1,0] 
+Ant #80 [0,0] 
+Ant #81 [-1,-1] 
+Ant #82 [-2,0] 
+Ant #83 [0,-2] 
+Ant #84 [1,1] 
+Ant #86 [1,1] 
+Ant #87 [1,1] 
+Ant #88 [1,0] 
+Ant #89 [0,-1] 
+Ant #90 [0,1] 
+Ant #92 [0,-1] 
+Ant #93 [1,0] 
+Ant #3 [-8,1] 
+Ant #4 [-1,1] 
+Ant #11 [-2,-4] 
+Ant #16 [-2,-6] 
+adding 6 ants to ant hill 
+ants are moving 
+anthill under attack 
+defenders win 
+Ant # 46 is in a fight 
+Ant # 46 was killed 
+Ant # 66 is in a fight 
+Ant # 66 was killed 
+Ant # 69 is in a fight 
+Ant # 69 won the fight 
+Ant # 71 is in a fight 
+Ant # 71 won the fight 
+Ant # 72 is in a fight 
+Ant # 72 won the fight 
+Ant # 86 is in a fight 
+Ant # 86 won the fight 
+Ant # 87 is in a fight 
+Ant # 87 won the fight 
+Ant # 89 is in a fight 
+Ant # 89 was killed 
+Ant # 93 is in a fight 
+Ant # 93 won the fight 
+Ant # 3 is in a fight 
+Ant # 3 was killed 
+==================== Turn #34 ====================
+The Hill currently has:
+	Food: 6
+	Ants: 47
+The hill has been attacked 7 times
+Successfully defended: 7
+Failed to defend: 0
+Ant #4 [-1,0] 
+Ant #11 [-2,-5] 
+Ant #16 [-3,-6] 
+Ant #17 [2,3] 
+Ant #27 [0,3] 
+Ant #28 [6,0] 
+Ant #33 [1,-5] 
+Ant #35 [-2,0] 
+Ant #38 [-1,4] 
+Ant #42 [-4,2] 
+Ant #43 [3,-2] 
+Ant #44 [4,1] 
+Ant #49 [0,0] 
+Ant #57 [1,-2] 
+Ant #60 [3,0] 
+Ant #61 [-1,0] 
+Ant #62 [0,0] 
+Ant #63 [-2,-2] 
+Ant #64 [2,2] 
+Ant #65 [2,2] 
+Ant #68 [-1,2] 
+Ant #69 [1,2] 
+Ant #70 [1,-2] 
+Ant #71 [0,-1] 
+Ant #72 [0,2] 
+Ant #73 [0,2] 
+Ant #74 [0,0] 
+Ant #75 [0,2] 
+Ant #76 [0,0] 
+Ant #77 [1,-1] 
+Ant #80 [1,0] 
+Ant #81 [-1,-2] 
+Ant #82 [-2,1] 
+Ant #83 [1,-2] 
+Ant #84 [2,1] 
+Ant #86 [1,2] 
+Ant #87 [1,2] 
+Ant #88 [1,1] 
+Ant #90 [0,0] 
+Ant #92 [0,0] 
+Ant #93 [0,0] 
+Ant #95 [0,-1] 
+Ant #96 [-1,0] 
+Ant #97 [0,1] 
+Ant #98 [-1,0] 
+Ant #99 [-1,0] 
+Ant #100 [0,-1] 
+adding 6 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 4 is in a fight 
+Ant # 4 was killed 
+Ant # 28 is in a fight 
+Ant # 28 won the fight 
+Ant # 43 is in a fight 
+Ant # 43 won the fight 
+Ant # 60 is in a fight 
+Ant # 60 was killed 
+Ant # 63 is in a fight 
+Ant # 63 won the fight 
+Ant # 72 is in a fight 
+Ant # 72 won the fight 
+Ant # 92 is in a fight 
+Ant # 92 was killed 
+Ant # 93 is in a fight 
+Ant # 93 won the fight 
+Ant # 100 is in a fight 
+Ant # 100 won the fight 
+==================== Turn #35 ====================
+The Hill currently has:
+	Food: 14
+	Ants: 50
+The hill has been attacked 7 times
+Successfully defended: 7
+Failed to defend: 0
+Ant #104 [0,-1] 
+Ant #105 [0,1] 
+Ant #106 [0,1] 
+Ant #11 [-2,-4] 
+Ant #16 [-3,-5] 
+Ant #17 [2,2] 
+Ant #27 [1,3] 
+Ant #28 [6,1] 
+Ant #33 [1,-6] 
+Ant #35 [-2,1] 
+Ant #38 [-1,5] 
+Ant #42 [-4,3] 
+Ant #43 [4,-2] 
+Ant #44 [4,0] 
+Ant #49 [0,-1] 
+Ant #57 [2,-2] 
+Ant #61 [-1,-1] 
+Ant #62 [-1,0] 
+Ant #63 [-2,-3] 
+Ant #64 [3,2] 
+Ant #65 [1,2] 
+Ant #68 [0,2] 
+Ant #69 [1,1] 
+Ant #70 [2,-2] 
+Ant #71 [0,0] 
+Ant #72 [0,3] 
+Ant #73 [0,3] 
+Ant #74 [1,0] 
+Ant #75 [0,3] 
+Ant #76 [0,1] 
+Ant #77 [1,-2] 
+Ant #80 [2,0] 
+Ant #81 [0,-2] 
+Ant #82 [-2,2] 
+Ant #83 [1,-1] 
+Ant #84 [2,0] 
+Ant #86 [1,3] 
+Ant #87 [2,2] 
+Ant #88 [1,2] 
+Ant #90 [1,0] 
+Ant #93 [1,0] 
+Ant #95 [1,-1] 
+Ant #96 [-2,0] 
+Ant #97 [0,0] 
+Ant #98 [0,0] 
+Ant #99 [-1,-1] 
+Ant #100 [0,-2] 
+Ant #101 [0,1] 
+Ant #102 [0,1] 
+Ant #103 [0,-1] 
+adding 14 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 104 is in a fight 
+Ant # 104 was killed 
+Ant # 107 is in a fight 
+Ant # 107 was killed 
+Ant # 112 is in a fight 
+Ant # 112 won the fight 
+Ant # 118 is in a fight 
+Ant # 118 won the fight 
+Ant # 16 is in a fight 
+Ant # 16 was killed 
+Ant # 61 is in a fight 
+Ant # 61 won the fight 
+Ant # 65 is in a fight 
+Ant # 65 won the fight 
+Ant # 73 is in a fight 
+Ant # 73 won the fight 
+Ant # 74 is in a fight 
+Ant # 74 won the fight 
+Ant # 77 is in a fight 
+Ant # 77 was killed 
+Ant # 81 is in a fight 
+Ant # 81 was killed 
+Ant # 87 is in a fight 
+Ant # 87 was killed 
+Ant # 95 is in a fight 
+Ant # 95 won the fight 
+==================== Turn #36 ====================
+The Hill currently has:
+	Food: 9
+	Ants: 58
+The hill has been attacked 7 times
+Successfully defended: 7
+Failed to defend: 0
+Ant #98 [0,-1] 
+Ant #99 [-2,-1] 
+Ant #100 [-1,-2] 
+Ant #101 [1,1] 
+Ant #102 [1,1] 
+Ant #103 [1,-1] 
+Ant #105 [1,1] 
+Ant #106 [0,0] 
+Ant #108 [-1,0] 
+Ant #109 [0,-1] 
+Ant #110 [-1,0] 
+Ant #111 [1,0] 
+Ant #112 [0,-1] 
+Ant #113 [-1,0] 
+Ant #114 [0,1] 
+Ant #115 [0,-1] 
+Ant #116 [0,-1] 
+Ant #117 [-1,0] 
+Ant #118 [0,-1] 
+Ant #119 [0,1] 
+Ant #120 [0,1] 
+Ant #11 [-3,-4] 
+Ant #17 [2,3] 
+Ant #27 [2,3] 
+Ant #28 [6,2] 
+Ant #33 [2,-6] 
+Ant #35 [-1,1] 
+Ant #38 [-1,4] 
+Ant #42 [-4,2] 
+Ant #43 [5,-2] 
+Ant #44 [4,-1] 
+Ant #49 [1,-1] 
+Ant #57 [2,-3] 
+Ant #61 [-2,-1] 
+Ant #62 [-1,-1] 
+Ant #63 [-2,-4] 
+Ant #64 [4,2] 
+Ant #65 [0,2] 
+Ant #68 [1,2] 
+Ant #69 [1,0] 
+Ant #70 [2,-1] 
+Ant #71 [1,0] 
+Ant #72 [0,4] 
+Ant #73 [0,2] 
+Ant #74 [1,-1] 
+Ant #75 [0,4] 
+Ant #76 [0,2] 
+Ant #80 [1,0] 
+Ant #82 [-2,3] 
+Ant #83 [1,0] 
+Ant #84 [2,-1] 
+Ant #86 [0,3] 
+Ant #88 [0,2] 
+Ant #90 [0,0] 
+Ant #93 [1,1] 
+Ant #95 [2,-1] 
+Ant #96 [-1,0] 
+Ant #97 [0,1] 
+adding 9 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 99 is in a fight 
+Ant # 99 was killed 
+Ant # 108 is in a fight 
+Ant # 108 won the fight 
+Ant # 126 is in a fight 
+Ant # 126 won the fight 
+Ant # 17 is in a fight 
+Ant # 17 was killed 
+Ant # 35 is in a fight 
+Ant # 35 won the fight 
+Ant # 57 is in a fight 
+Ant # 57 was killed 
+Ant # 63 is in a fight 
+Ant # 63 won the fight 
+Ant # 74 is in a fight 
+Ant # 74 won the fight 
+Ant # 88 is in a fight 
+Ant # 88 won the fight 
+Ant # 90 is in a fight 
+Ant # 90 was killed 
+==================== Turn #37 ====================
+The Hill currently has:
+	Food: 13
+	Ants: 63
+The hill has been attacked 7 times
+Successfully defended: 7
+Failed to defend: 0
+Ant #93 [1,0] 
+Ant #95 [2,-2] 
+Ant #96 [-1,-1] 
+Ant #97 [-1,1] 
+Ant #98 [-1,-1] 
+Ant #100 [-1,-3] 
+Ant #101 [1,0] 
+Ant #102 [1,0] 
+Ant #103 [1,0] 
+Ant #105 [1,2] 
+Ant #106 [0,1] 
+Ant #108 [0,0] 
+Ant #109 [0,-2] 
+Ant #110 [-1,-1] 
+Ant #111 [1,-1] 
+Ant #112 [0,0] 
+Ant #113 [-2,0] 
+Ant #114 [0,0] 
+Ant #115 [0,0] 
+Ant #116 [0,-2] 
+Ant #117 [0,0] 
+Ant #118 [0,-2] 
+Ant #119 [1,1] 
+Ant #120 [0,0] 
+Ant #121 [0,1] 
+Ant #122 [0,1] 
+Ant #123 [1,0] 
+Ant #124 [0,1] 
+Ant #125 [1,0] 
+Ant #126 [-1,0] 
+Ant #127 [0,1] 
+Ant #128 [0,1] 
+Ant #129 [0,1] 
+Ant #11 [-3,-3] 
+Ant #27 [2,4] 
+Ant #28 [5,2] 
+Ant #33 [2,-7] 
+Ant #35 [-1,2] 
+Ant #38 [-1,3] 
+Ant #42 [-5,2] 
+Ant #43 [6,-2] 
+Ant #44 [4,-2] 
+Ant #49 [0,-1] 
+Ant #61 [-2,-2] 
+Ant #62 [-1,-2] 
+Ant #63 [-3,-4] 
+Ant #64 [4,3] 
+Ant #65 [0,3] 
+Ant #68 [2,2] 
+Ant #69 [1,1] 
+Ant #70 [1,-1] 
+Ant #71 [2,0] 
+Ant #72 [-1,4] 
+Ant #73 [0,1] 
+Ant #74 [1,0] 
+Ant #75 [-1,4] 
+Ant #76 [-1,2] 
+Ant #80 [1,1] 
+Ant #82 [-2,2] 
+Ant #83 [1,-1] 
+Ant #84 [3,-1] 
+Ant #86 [-1,3] 
+Ant #88 [0,3] 
+adding 13 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 109 is in a fight 
+Ant # 109 won the fight 
+Ant # 111 is in a fight 
+Ant # 111 won the fight 
+Ant # 114 is in a fight 
+Ant # 114 was killed 
+Ant # 123 is in a fight 
+Ant # 123 won the fight 
+Ant # 130 is in a fight 
+Ant # 130 won the fight 
+Ant # 133 is in a fight 
+Ant # 133 was killed 
+Ant # 135 is in a fight 
+Ant # 135 won the fight 
+Ant # 138 is in a fight 
+Ant # 138 won the fight 
+Ant # 140 is in a fight 
+Ant # 140 was killed 
+Ant # 42 is in a fight 
+Ant # 42 won the fight 
+Ant # 43 is in a fight 
+Ant # 43 won the fight 
+Ant # 49 is in a fight 
+Ant # 49 was killed 
+Ant # 61 is in a fight 
+Ant # 61 was killed 
+Ant # 64 is in a fight 
+Ant # 64 was killed 
+Ant # 70 is in a fight 
+Ant # 70 was killed 
+Ant # 75 is in a fight 
+Ant # 75 won the fight 
+==================== Turn #38 ====================
+The Hill currently has:
+	Food: 19
+	Ants: 69
+The hill has been attacked 7 times
+Successfully defended: 7
+Failed to defend: 0
+Ant #76 [-2,2] 
+Ant #80 [1,0] 
+Ant #82 [-2,1] 
+Ant #83 [1,-2] 
+Ant #84 [2,-1] 
+Ant #86 [-1,2] 
+Ant #88 [-1,3] 
+Ant #93 [1,-1] 
+Ant #95 [2,-3] 
+Ant #96 [0,-1] 
+Ant #97 [0,1] 
+Ant #98 [0,-1] 
+Ant #100 [-2,-3] 
+Ant #101 [0,0] 
+Ant #102 [1,-1] 
+Ant #103 [2,0] 
+Ant #105 [0,2] 
+Ant #106 [0,2] 
+Ant #108 [0,-1] 
+Ant #109 [-1,-2] 
+Ant #110 [-2,-1] 
+Ant #111 [1,0] 
+Ant #112 [-1,0] 
+Ant #113 [-2,1] 
+Ant #115 [-1,0] 
+Ant #116 [1,-2] 
+Ant #117 [0,-1] 
+Ant #118 [-1,-2] 
+Ant #119 [1,0] 
+Ant #120 [0,-1] 
+Ant #121 [-1,1] 
+Ant #122 [0,0] 
+Ant #123 [0,0] 
+Ant #124 [1,1] 
+Ant #125 [2,0] 
+Ant #126 [0,0] 
+Ant #127 [1,1] 
+Ant #128 [0,0] 
+Ant #129 [0,0] 
+Ant #130 [-1,0] 
+Ant #131 [1,0] 
+Ant #132 [1,0] 
+Ant #134 [-1,0] 
+Ant #135 [0,-1] 
+Ant #136 [0,1] 
+Ant #137 [0,-1] 
+Ant #138 [-1,0] 
+Ant #139 [0,1] 
+Ant #141 [0,1] 
+Ant #142 [1,0] 
+Ant #11 [-4,-3] 
+Ant #27 [3,4] 
+Ant #28 [5,1] 
+Ant #33 [2,-8] 
+Ant #35 [-2,2] 
+Ant #38 [-1,4] 
+Ant #42 [-4,2] 
+Ant #43 [7,-2] 
+Ant #44 [3,-2] 
+Ant #62 [-1,-3] 
+Ant #63 [-4,-4] 
+Ant #65 [0,2] 
+Ant #68 [1,2] 
+Ant #69 [1,2] 
+Ant #71 [2,1] 
+Ant #72 [-1,5] 
+Ant #73 [0,2] 
+Ant #74 [2,0] 
+Ant #75 [0,4] 
+adding 19 ants to ant hill 
+ants are moving 
+anthill under attack 
+defenders win 
+Ant # 86 is in a fight 
+Ant # 86 won the fight 
+Ant # 101 is in a fight 
+Ant # 101 was killed 
+Ant # 102 is in a fight 
+Ant # 102 was killed 
+Ant # 120 is in a fight 
+Ant # 120 won the fight 
+Ant # 126 is in a fight 
+Ant # 126 was killed 
+Ant # 129 is in a fight 
+Ant # 129 was killed 
+Ant # 135 is in a fight 
+Ant # 135 won the fight 
+Ant # 138 is in a fight 
+Ant # 138 won the fight 
+Ant # 148 is in a fight 
+Ant # 148 won the fight 
+Ant # 151 is in a fight 
+Ant # 151 won the fight 
+Ant # 153 is in a fight 
+Ant # 153 was killed 
+==================== Turn #39 ====================
+The Hill currently has:
+	Food: 16
+	Ants: 83
+The hill has been attacked 8 times
+Successfully defended: 8
+Failed to defend: 0
+Ant #71 [1,1] 
+Ant #72 [-1,4] 
+Ant #73 [0,3] 
+Ant #74 [2,1] 
+Ant #75 [0,5] 
+Ant #76 [-2,3] 
+Ant #80 [2,0] 
+Ant #82 [-1,1] 
+Ant #83 [0,-2] 
+Ant #84 [1,-1] 
+Ant #86 [-2,2] 
+Ant #88 [0,3] 
+Ant #93 [0,-1] 
+Ant #95 [2,-4] 
+Ant #96 [-1,-1] 
+Ant #97 [1,1] 
+Ant #98 [0,0] 
+Ant #100 [-1,-3] 
+Ant #103 [3,0] 
+Ant #105 [0,1] 
+Ant #106 [0,1] 
+Ant #108 [0,0] 
+Ant #109 [-2,-2] 
+Ant #110 [-2,-2] 
+Ant #111 [1,-1] 
+Ant #112 [-1,-1] 
+Ant #113 [-2,0] 
+Ant #115 [0,0] 
+Ant #116 [1,-3] 
+Ant #117 [-1,-1] 
+Ant #118 [-2,-2] 
+Ant #119 [1,1] 
+Ant #120 [0,-2] 
+Ant #121 [-1,2] 
+Ant #122 [1,0] 
+Ant #123 [1,0] 
+Ant #124 [1,2] 
+Ant #125 [1,0] 
+Ant #127 [1,0] 
+Ant #128 [-1,0] 
+Ant #130 [-1,1] 
+Ant #131 [1,-1] 
+Ant #132 [1,1] 
+Ant #134 [-2,0] 
+Ant #135 [0,-2] 
+Ant #136 [1,1] 
+Ant #137 [1,-1] 
+Ant #138 [-1,-1] 
+Ant #139 [0,0] 
+Ant #141 [0,0] 
+Ant #142 [0,0] 
+Ant #143 [1,0] 
+Ant #144 [0,1] 
+Ant #145 [-1,0] 
+Ant #146 [1,0] 
+Ant #147 [-1,0] 
+Ant #148 [-1,0] 
+Ant #149 [0,-1] 
+Ant #150 [0,1] 
+Ant #151 [0,1] 
+Ant #152 [-1,0] 
+Ant #154 [1,0] 
+Ant #155 [-1,0] 
+Ant #156 [0,1] 
+Ant #157 [0,-1] 
+Ant #158 [0,-1] 
+Ant #159 [0,-1] 
+Ant #160 [0,1] 
+Ant #161 [1,0] 
+Ant #11 [-5,-3] 
+Ant #27 [2,4] 
+Ant #28 [5,0] 
+Ant #33 [2,-9] 
+Ant #35 [-2,3] 
+Ant #38 [-1,3] 
+Ant #42 [-4,1] 
+Ant #43 [7,-1] 
+Ant #44 [3,-1] 
+Ant #62 [-1,-4] 
+Ant #63 [-4,-3] 
+Ant #65 [1,2] 
+Ant #68 [1,1] 
+Ant #69 [2,2] 
+adding 16 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 73 is in a fight 
+Ant # 73 won the fight 
+Ant # 74 is in a fight 
+Ant # 74 was killed 
+Ant # 109 is in a fight 
+Ant # 109 won the fight 
+Ant # 110 is in a fight 
+Ant # 110 was killed 
+Ant # 113 is in a fight 
+Ant # 113 won the fight 
+Ant # 117 is in a fight 
+Ant # 117 was killed 
+Ant # 122 is in a fight 
+Ant # 122 won the fight 
+Ant # 123 is in a fight 
+Ant # 123 won the fight 
+Ant # 127 is in a fight 
+Ant # 127 won the fight 
+Ant # 138 is in a fight 
+Ant # 138 was killed 
+Ant # 142 is in a fight 
+Ant # 142 won the fight 
+Ant # 147 is in a fight 
+Ant # 147 was killed 
+Ant # 150 is in a fight 
+Ant # 150 won the fight 
+Ant # 152 is in a fight 
+Ant # 152 was killed 
+Ant # 155 is in a fight 
+Ant # 155 won the fight 
+Ant # 158 is in a fight 
+Ant # 158 won the fight 
+Ant # 166 is in a fight 
+Ant # 166 was killed 
+Ant # 168 is in a fight 
+Ant # 168 won the fight 
+Ant # 169 is in a fight 
+Ant # 169 was killed 
+Ant # 171 is in a fight 
+Ant # 171 was killed 
+Ant # 174 is in a fight 
+Ant # 174 won the fight 
+Ant # 176 is in a fight 
+Ant # 176 won the fight 
+Ant # 177 is in a fight 
+Ant # 177 won the fight 
+Ant # 35 is in a fight 
+Ant # 35 won the fight 
+==================== Turn #40 ====================
+The Hill currently has:
+	Food: 14
+	Ants: 90
+The hill has been attacked 8 times
+Successfully defended: 8
+Failed to defend: 0
+Ant #38 [-1,2] 
+Ant #42 [-4,2] 
+Ant #43 [7,0] 
+Ant #44 [3,-2] 
+Ant #62 [-2,-4] 
+Ant #63 [-5,-3] 
+Ant #65 [1,1] 
+Ant #68 [0,1] 
+Ant #69 [2,1] 
+Ant #71 [0,1] 
+Ant #72 [0,4] 
+Ant #73 [-1,3] 
+Ant #75 [0,4] 
+Ant #76 [-2,2] 
+Ant #80 [2,1] 
+Ant #82 [-1,2] 
+Ant #83 [0,-1] 
+Ant #84 [0,-1] 
+Ant #86 [-2,3] 
+Ant #88 [0,4] 
+Ant #93 [0,-2] 
+Ant #95 [2,-5] 
+Ant #96 [-1,0] 
+Ant #97 [0,1] 
+Ant #98 [-1,0] 
+Ant #100 [0,-3] 
+Ant #103 [2,0] 
+Ant #105 [0,0] 
+Ant #106 [1,1] 
+Ant #108 [-1,0] 
+Ant #109 [-2,-3] 
+Ant #111 [1,-2] 
+Ant #112 [-1,0] 
+Ant #113 [-2,1] 
+Ant #115 [0,1] 
+Ant #116 [2,-3] 
+Ant #118 [-2,-1] 
+Ant #119 [0,1] 
+Ant #120 [-1,-2] 
+Ant #121 [-1,1] 
+Ant #122 [0,0] 
+Ant #123 [2,0] 
+Ant #124 [1,1] 
+Ant #125 [1,-1] 
+Ant #127 [1,-1] 
+Ant #128 [-2,0] 
+Ant #130 [0,1] 
+Ant #131 [0,-1] 
+Ant #132 [2,1] 
+Ant #134 [-1,0] 
+Ant #135 [1,-2] 
+Ant #136 [1,2] 
+Ant #137 [0,-1] 
+Ant #139 [0,1] 
+Ant #141 [0,-1] 
+Ant #142 [-1,0] 
+Ant #143 [1,-1] 
+Ant #144 [1,1] 
+Ant #145 [0,0] 
+Ant #146 [0,0] 
+Ant #148 [-1,1] 
+Ant #149 [1,-1] 
+Ant #150 [-1,1] 
+Ant #151 [0,2] 
+Ant #154 [1,-1] 
+Ant #155 [-1,-1] 
+Ant #156 [0,0] 
+Ant #157 [0,-2] 
+Ant #158 [1,-1] 
+Ant #159 [0,-2] 
+Ant #160 [0,2] 
+Ant #161 [2,0] 
+Ant #162 [0,1] 
+Ant #163 [0,-1] 
+Ant #164 [1,0] 
+Ant #165 [0,-1] 
+Ant #167 [1,0] 
+Ant #168 [0,-1] 
+Ant #170 [0,1] 
+Ant #172 [1,0] 
+Ant #173 [-1,0] 
+Ant #174 [0,1] 
+Ant #175 [0,-1] 
+Ant #176 [-1,0] 
+Ant #177 [0,1] 
+Ant #11 [-6,-3] 
+Ant #27 [1,4] 
+Ant #28 [4,0] 
+Ant #33 [1,-9] 
+Ant #35 [-2,4] 
+adding 14 ants to ant hill 
+ants are moving 
+no attack on anthill this turn 
+Ant # 86 is in a fight 
+Ant # 86 was killed 
+Ant # 88 is in a fight 
+Ant # 88 won the fight 
+Ant # 121 is in a fight 
+Ant # 121 won the fight 
+Ant # 122 is in a fight 
+Ant # 122 won the fight 
+Ant # 123 is in a fight 
+Ant # 123 was killed 
+Ant # 137 is in a fight 
+Ant # 137 won the fight 
+Ant # 139 is in a fight 
+Ant # 139 won the fight 
+Ant # 145 is in a fight 
+Ant # 145 won the fight 
+Ant # 149 is in a fight 
+Ant # 149 won the fight 
+Ant # 151 is in a fight 
+Ant # 151 won the fight 
+Ant # 162 is in a fight 
+Ant # 162 won the fight 
+Ant # 174 is in a fight 
+Ant # 174 won the fight 
+Ant # 177 is in a fight 
+Ant # 177 was killed 
+Ant # 182 is in a fight 
+Ant # 182 won the fight 

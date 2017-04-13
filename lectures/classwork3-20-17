@@ -1,0 +1,7 @@
+Preorder: 5 3 2 1 4 8 6 7 9
+Inorder: 1 2 3 4 5 6 7 8 9
+Postorder: 1 2 4 3 7 6 9 8 5
+
+Deep Copy - Preorder
+Delete Tree - Postorder
+Sorted Print - Inorder
