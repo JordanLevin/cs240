@@ -1,25 +1,39 @@
 #include "Heap.h"
 #include <fstream>
 #include <string>
+#include <iostream>
+#include <cstring>
 
 Heap::Heap(){
 
 }
 
 Heap::Heap(std::string filename){
-    std::ifstream stream(filename);
-    while(!stream.eof()){
-        std::string name;
-        int budget;
-        stream>>name;
-        stream>>budget;
-        Player p(name, budget);
-        players.push_back(p);
+    std::ifstream stream;
+	stream.exceptions(std::ifstream::failbit | std::ifstream::badbit);
+    try {
+        stream.open(filename);
+        while(!stream.eof()){
+            std::string name;
+            std::string budget;
+            getline(stream, name);
+            getline(stream, budget);
+            Player p(name, std::stoi(budget));
+            players.push_back(p);
+        }
+        stream.close();
     }
+    catch (const std::ifstream::failure& e) {
+        std::cout << "Exception opening/reading file";
+    }
+    heapify();
 }
 
 Heap::Heap(const Heap &copy){
-
+    std::cout << "Copy Constructor \n";
+    for(int i = 0;i<copy.players.size();i++){
+        players.push_back(copy.players[i]);
+    }
 }
 
 void Heap::addPlayer(Player newPlayer){
@@ -28,12 +42,13 @@ void Heap::addPlayer(Player newPlayer){
 }
 
 Player Heap::getPlayer(){
+    Player ret = players[0];
     Player temp = players[players.size()-1];
     players[players.size()-1] = players[0];
     players[0] = temp;
-    Player ret = players.back();
     players.pop_back();
     heapify();
+    return ret;
 }
 
 std::vector<Player> Heap::getArray(){
@@ -47,6 +62,7 @@ bool Heap::empty(){
 }
 
 unsigned int Heap::size(){
+    //std::cout << players.size() << "\n";
     return players.size();
 }
 
@@ -59,15 +75,23 @@ void Heap::heapify(){
 void Heap::sift(int index){
     int left = 2*index+1;
     int right = 2*index+2;
-    if(left >= players.size())
+    if(left >= players.size() || index >= players.size())
         return;
-    if(players[left] > players[right] && players[left] > players[indexndex]){
+    if(right >= players.size()){
+        if(players[left] > players[index]){    
+            Player temp = players[left];
+            players[left] = players[index];
+            players[index] = temp;
+            sift(left);
+        }
+    }
+    else if(players[left] > players[right] && players[left] > players[index]){
         Player temp = players[left];
         players[left] = players[index];
         players[index] = temp;
         sift(left);
     }
-    else if(players[right] > players[i]){
+    else if(players[right] > players[index]){
         Player temp = players[right];
         players[right] = players[index];
         players[index] = temp;

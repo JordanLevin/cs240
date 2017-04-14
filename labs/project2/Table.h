@@ -6,6 +6,9 @@
 
 
 class Table{
+    private:
+        int seats;
+        int ante;
     public:
         Table(int num_seats, int ante);
         bool emptySeat();

@@ -1,7 +1,8 @@
 #include "Table.h"
 
 Table::Table(int num_seats, int ante){
-    
+    this->seats = num_seats;
+    this->ante = ante;
 }
 
 bool Table::emptySeat(){
