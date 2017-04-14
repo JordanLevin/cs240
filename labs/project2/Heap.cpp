@@ -56,19 +56,21 @@ void Heap::heapify(){
     }
 }
 
-void Heap::sift(int i){
-    if(2*i+1 >= players.size())
+void Heap::sift(int index){
+    int left = 2*index+1;
+    int right = 2*index+2;
+    if(left >= players.size())
         return;
-    if(players[2*i+1] > players[2*i+2] && players[2*i+1] > players[i]){
-        Player temp = players[2*i+1];
-        players[2*i+1] = players[i];
-        players[i] = temp;
-        sift(2*i+1);
+    if(players[left] > players[right] && players[left] > players[indexndex]){
+        Player temp = players[left];
+        players[left] = players[index];
+        players[index] = temp;
+        sift(left);
     }
-    else if(players[2*i+2] > players[i]){
-        Player temp = players[2*i+2];
-        players[2*i+2] = players[i];
-        players[i] = temp;
-        sift(2*i+2);
+    else if(players[right] > players[i]){
+        Player temp = players[right];
+        players[right] = players[index];
+        players[index] = temp;
+        sift(right);
     }
 }
