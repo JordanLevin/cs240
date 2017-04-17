@@ -19,12 +19,12 @@ std::vector<Player> Table::playRound(){
     std::vector<Card> cards_drawn;
     Deck cards;
     cards.shuffle();
-    for(Player p: table){
+    for(Player& p: table){
         //maybe add check for player balance later
         p.bet(ante);
         money+=ante;
     }
-    for(Player p: table){
+    for(Player& p: table){
         p.hand = cards.draw();
         cards_drawn.push_back(p.hand);
     }
@@ -37,11 +37,13 @@ std::vector<Player> Table::playRound(){
         }
 	);
     std::vector<Player> losers;
-    for(Player p: table){
-        if(!(p.hand == winning))
-            losers.push_back(p);
+    for(int p = 0;p < table.size(); p++){
+        if(!(table[p].hand == winning)){
+            losers.push_back(table[p]);
+            table.erase(table.begin()+p);
+        }
         else
-            winner = p;
+            winner = table[p];
     }
 
     return losers;
