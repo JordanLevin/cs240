@@ -7,8 +7,10 @@
 
 class Table{
     private:
+        Player winner;
         int seats;
         int ante;
+        std::vector<Player> table;
     public:
         Table(int num_seats, int ante);
         bool emptySeat();

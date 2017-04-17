@@ -12,6 +12,7 @@ class Player{
     public: 
         Card hand;
         Player(std::string name, int b);
+        Player();
         std::string getName();
         int getBudget();
         bool bet(int amount);

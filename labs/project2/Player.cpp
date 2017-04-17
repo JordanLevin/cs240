@@ -4,6 +4,10 @@ Player::Player(std::string n, int b){
     name = n;
     budget = b;
 }
+Player::Player(){
+    name = "";
+    budget = 0;
+}
 
 std::string Player::getName(){
     return name;
