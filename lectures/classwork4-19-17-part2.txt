@@ -1,0 +1,11 @@
+hash function to take phone number and map into an indexed array
+
+hash(x) = x%200
+
+decide what data struct to use in each case:
+
+1. 
+2. 
+3. hash table (key is isbn)
+4. binary search tree
+

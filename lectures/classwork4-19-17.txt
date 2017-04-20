@@ -1,0 +1,10 @@
+1 pro 1 con for dictionary implementation with linked list array and tree
+    Linked List:
+        Pro: easily added to
+        Con: slower search
+    Array:
+        Pro: faster access
+        Con: add might need resizing
+    Tree:
+        Pro: fast insert, access, deletion, dynamic allocation 
+        Con: tree needs to be balanced
