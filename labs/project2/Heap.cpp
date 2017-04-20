@@ -18,19 +18,25 @@ Heap::Heap(std::string filename){
             std::string budget;
             getline(stream, name);
             getline(stream, budget);
-            Player p(name, std::stoi(budget));
-            players.push_back(p);
+            try {
+                Player p(name, std::stoi(budget));
+                players.push_back(p);
+            }
+            catch(std::invalid_argument& e){
+                std::cerr << "invalid file \n";
+                return;
+            }
         }
         stream.close();
     }
     catch (const std::ifstream::failure& e) {
-        std::cout << "Exception opening/reading file";
+    
     }
     heapify();
 }
 
 Heap::Heap(const Heap &copy){
-    std::cout << "Copy Constructor \n";
+    //std::cout << "Copy Constructor \n";
     for(int i = 0;i<copy.players.size();i++){
         players.push_back(copy.players[i]);
     }
@@ -62,7 +68,6 @@ bool Heap::empty(){
 }
 
 unsigned int Heap::size(){
-    //std::cout << players.size() << "\n";
     return players.size();
 }
 

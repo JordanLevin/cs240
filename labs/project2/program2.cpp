@@ -197,7 +197,42 @@ int main(){
 	cerr << "\n\t========================PASS========================\n" << endl;
 
 	//####################Your Tests#####################//
-	//cerr << "\n\tTEST #9: Two tests of your own" << endl;
+	cerr << "\n\tTEST #9: Play highcard tournament with file with junk info" << endl;
+    
+	Heap tourney5("players3.txt");
+	cerr << "\n\t========================PASS========================\n" << endl;
+
+	cerr << "\n\tTEST #10: Play highcard tournament with negative money" << endl;
+	
+    Heap tourney4;
+	num = 1;
+	for(int i = 0; i < 25; i++){
+		string name = "Player" + to_string(num++);
+		int budget = -50;
+		tourney4.addPlayer(Player(name, budget));
+		assert(verifyHeap(tourney4));
+		assert(isHeap(tourney4.getArray(), 0));
+	}
+	Table highcardTable4(5, ante);
+
+	while(!tourney4.empty()){
+		while(!tourney4.empty() && highcardTable4.emptySeat()){
+			highcardTable4.addPlayer(tourney4.getPlayer());
+		}
+		assert(verifyHeap(tourney4));
+		assert(isHeap(tourney4.getArray(), 0));
+		vector<Player> loser = highcardTable4.playRound();
+		for(auto p: loser){
+			if(p.getBudget() > ante){
+				tourney4.addPlayer(p);
+			}
+		}
+		assert(verifyHeap(tourney4));
+		assert(isHeap(tourney4.getArray(), 0));
+	}
+	highcardTable4.printWinner();
+	cerr << "\n\t========================PASS========================\n" << endl;
+
 
 	return 0;
 }
