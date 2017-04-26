@@ -1,0 +1,8 @@
+Solving collisions:
+
+if the hash is already occupied, add the value and key to a linked list at that spot
+when looking up a key check to make sure the position has the right key
+if it doesnt go through the linked list at that spot looking for the key
+
+makes performance worse if there are many collisions, potentially up to O(n) lookup
+probably much better most of the time though
