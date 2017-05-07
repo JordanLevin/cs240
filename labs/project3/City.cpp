@@ -1,4 +1,6 @@
 #include "City.h"
+#include <iostream>
+
 
 City::City(std::string cityName, int xCoord, int yCoord){
     name = cityName;
@@ -10,11 +12,11 @@ std::string City::getName(){
     return name;
 }
 
-int City::getXCoord(){
+int City::getXCoor(){
     return xCoord;
 }
 
-int City::getYCoord(){
+int City::getYCoor(){
     return yCoord;
 }
 
@@ -22,6 +24,10 @@ std::list<City*> City::getAdjacent(){
     return adjacent;
 }
 
-bool City::operator<(City& c){
+void City::addAdjacent(City* c){
+    adjacent.push_back(c);
+}
 
+bool City::operator<(City& c){
+    return this->getName() < c.getName();
 }

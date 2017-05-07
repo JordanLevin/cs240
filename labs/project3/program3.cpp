@@ -37,6 +37,7 @@ void printPath(vector<City *> path){
 }
 //********************************************************************//
 
+
 void checkAdjacencies(Map &map, string city, vector<string> &adjacents){
 	list<City*> adj, test;
 	test = map.findByName(city)->getAdjacent();
@@ -52,7 +53,6 @@ void checkAdjacencies(Map &map, string city, vector<string> &adjacents){
 		assert((*a)->getName() == (*t)->getName());
 	}
 }
-
 void checkPath(Map &map, vector<string> &cities, string start, string dest){
 	City * startc = map.findByName(start);
 	City * destc = map.findByName(dest);
@@ -65,7 +65,6 @@ void checkPath(Map &map, vector<string> &cities, string start, string dest){
 		i++;
 	}
 }
-
 int main(int argc, char *argv[]){
 
 	cerr << "\n\tTEST #1: Read file a list of Cities and their locations" << endl;
@@ -182,7 +181,6 @@ int main(int argc, char *argv[]){
 	stop = map2.findByName("doomstadt");
 	assert(map2.pathDistance(start, stop) == 8);
 	cerr << "\n\t========================PASS========================\n" << endl;
-
 
 
 	return 0;

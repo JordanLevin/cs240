@@ -11,11 +11,17 @@ class City{
         int yCoord;
         std::list<City*> adjacent; 
     public:
+        //Values used for dijkstra
+        City* previous = nullptr;
+        int dist = -1;
+        bool explored = false;
+        //required by assignment
         City(std::string cityName, int xCoord, int yCoord);
         std::string getName();
-        int getXCoord();
-        int getYCoord();
+        int getXCoor();
+        int getYCoor();
         std::list<City*> getAdjacent();
+        void addAdjacent(City* c);
         bool operator<(City& c);
 
 };
