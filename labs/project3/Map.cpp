@@ -12,20 +12,22 @@ Map::Map(std::string filename){
     int y;
     std::ifstream input(filename);
     while(!input.eof()){
+        name = "";
         input >> name;
+        //small hack to fix issue where beijing got inserted twice
+        if(name == ""){
+            break;
+        }
         input >> x;
         input >> y;
         City temp(name, x, y);
         cities.push_back(temp);
     }
-    //idk why but beijing gets inserted twice, pop it off here
-    cities.pop_back();
 
     for(City& c: cities){
-        std::cout << "" << std::endl;
-        std::cout << c.getName() << std::endl;
         std::vector<City*> sameX;
         std::vector<City*> sameY;
+        //generate lists of cities with the same x or y as current city
         for(City& d: cities){
             if(c.getXCoor() == d.getXCoor()){
                 sameX.push_back(&d);
@@ -34,6 +36,8 @@ Map::Map(std::string filename){
                 sameY.push_back(&d);
             }       
         }
+
+        //sort lists based on x and y coords 
         std::sort(sameX.begin(), sameX.end(), 
                 [](City* a, City* b) -> bool{
                     return a->getYCoor() > b->getYCoor();
@@ -43,6 +47,7 @@ Map::Map(std::string filename){
                     return a->getXCoor() > b->getXCoor();
                 });
 
+        //grab the two closest cities on y axis and add them to adjacent list
         for(size_t i = 0;i<sameX.size();i++){
             if(sameX[i] == &c){
                 if(i > 0)
@@ -52,6 +57,7 @@ Map::Map(std::string filename){
                 break;
             }
         }
+        //grab the two closest cities on x axis and add them to adjacent list
         for(size_t i = 0;i<sameY.size();i++){
             if(sameY[i] == &c){
                 if(i > 0)
@@ -64,10 +70,11 @@ Map::Map(std::string filename){
     }
 }
 
+//returns pointer to city of a specified name
 City* Map::findByName(std::string cityName){
-    for(int i = 0; i<(int)cities.size();i++){
-        if(cities[i].getName() == cityName){
-            return &cities[i];
+    for(City& c: cities){
+        if(c.getName() == cityName){
+            return &c;
         }
     }
     return nullptr;
@@ -75,106 +82,82 @@ City* Map::findByName(std::string cityName){
 
 
 std::vector<City*> Map::shortestPath(City* start, City* dest){
+    //reset the map every time dijkstra's is run
+    for(City& c: cities){
+        c.dist = -1;
+        c.previous = nullptr;
+        c.explored = false;
+    }
     findByName(start->getName())->dist = 0;
+    std::vector<City*> ret;
+    //algorithm is completed when the lowest dist in the table is the destination city
     while(findLowest() != dest){
+        //return empty vector if lowest is null. this means there is no path
         if(findLowest() == nullptr){
-            std::vector<City*> ret;
             return ret;
         }
+        //explore the closest city
         City* temp = findLowest();
         temp->explored = true;
         for(City* c: temp->getAdjacent()){
+            //every distance is better than -1
+            if(c->dist == -1){
+                c->dist = temp->dist + distance(temp, c);
+                c->previous = temp;
+                continue;
+            }
             //ignore if the city has been fully explored
             if(c->explored)
                 continue;
             //ignore if we would be increasing the value of dist
-            if(c->dist < temp->dist + distance(temp, c))
+            if(c->dist < temp->dist + distance(temp, c) && temp->dist != -1)
                 continue;
             c->dist = temp->dist + distance(temp, c);
+            c->previous = temp;
         }
     }
-    std::vector<City*> ret;
+    //jump back until we hit the starting city
     City* i = findLowest();
-    while(i != start){
-        std::cout << i->getName() << std::endl;
+    while(i != nullptr){
         ret.push_back(i);
+        if(i == start)
+            break;
         i = i->previous;
     }
+    //reverse the list so it goes from start
+    std::reverse(ret.begin(), ret.end());
     return ret;
-    /*using path = std::tuple<City*, City*, int, bool>;
-    std::vector<City*> ret;
-    std::vector<path> route;
-    for(City& c: cities){
-        int dist = -1;
-        if(&c == start)
-            dist = 0;
-        route.push_back(std::make_tuple(&c, nullptr, dist, false));
-    }
-    bool done = false;
-    while(!done){
-        std::sort(route.begin(), route.end(), 
-            [](path a, path b) -> bool{
-                if(std::get<3>(a) && !std::get<3>(b))
-                    return true;
-                if(std::get<3>(b) && !std::get<3>(a))
-                    return false;
-                if(std::get<2>(a) == -1)
-                    return true;
-                if(std::get<2>(b) == -1)
-                    return false;
-                return std::get<2>(a) > std::get<2>(b);
-            });
-        for(path p: route){
-            std::cout << std::get<0>(p)->getName() << std::endl;
-        }
-        if(std::get<0>(route[0]) == dest){
-            done = true;
-            break;
-        }
-        path temp = route[0];
-        std::get<3>(temp) = true;
-        for(City* city: std::get<0>(temp)->getAdjacent()){
-            for(path p: route){
-                if(city == std::get<0>(p) && !std::get<3>(p)){
-                    std::get<1>(p) = std::get<0>(temp);
-                    std::get<2>(p) += distance(std::get<0>(temp), std::get<0>(p));
-                }
-            }
-        }
-    }
-    path temp = route[0];
-    for(path p: route){
-        if(std::get<0>(temp) == std::get<0>(p)){
-            ret.push_back(std::get<0>(temp));
-            temp = p;
-        }    
-    }
-    return ret;*/
 }
 
+//calculates distance between 2 cities. ASSUMES CITIES ARE IN SAME X OR Y AXIS
 int Map::distance(City* a, City* b){
     return abs(a->getXCoor() - b->getXCoor()) + abs(a->getYCoor() - b->getYCoor());
 }
+
+//returns the city in the list of cities that has the lowest distance value. (-1 is treated as infinity)
+//returns nullptr if all cities are explored
 City* Map::findLowest(){
     int min = -1;
     City* ret = nullptr;
     for(City& c: cities){
         if(c.dist == -1)
             continue;
+        if(min == -1 && !c.explored){
+            min = c.dist;
+            ret = &c;
+            continue;
+        }
         if(c.explored)
             continue;
-        else if(min != -1 && c.dist < min){
+        if(c.dist < min){
             min = c.dist;
             ret = &c;
         }
-        else{
-            min = c.dist;
-        }
-        
     }
     return ret;
 }
 
+//uses dijkstra's to calculate the distance between two cities
 unsigned int Map::pathDistance(City* start, City* dest){
     int ret = 0;
     auto path = shortestPath(start, dest);

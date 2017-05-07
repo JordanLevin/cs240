@@ -2,8 +2,9 @@
 #include <iostream>
 
 
-City::City(std::string cityName, int xCoord, int yCoord){
-    name = cityName;
+City::City(const std::string& cityName, int xCoord, int yCoord)
+: name(cityName)
+{
     this->xCoord = xCoord;
     this->yCoord = yCoord;
 }

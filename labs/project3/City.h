@@ -16,7 +16,7 @@ class City{
         int dist = -1;
         bool explored = false;
         //required by assignment
-        City(std::string cityName, int xCoord, int yCoord);
+        City(const std::string& cityName, int xCoord, int yCoord);
         std::string getName();
         int getXCoor();
         int getYCoor();
